@@ -94,14 +94,10 @@ namespace StarterAssets
 
 		private void Update()
 		{
+			CameraRotation();
 			JumpAndGravity();
 			GroundedCheck();
 			Move();
-		}
-
-		private void LateUpdate()
-		{
-			CameraRotation();
 		}
 
 		private void GroundedCheck()
